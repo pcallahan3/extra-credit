@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Become a Blogger</title>
+<meta name="robots" content="noindex, nofollow">
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="css/style.css"/>
+<!-- Include JS File Here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="js/registration.js"></script>
+</head>
+<body>
+    
+    
+<div class="container">
+    
+    <div class="panel panel-default container-fluid" style="background-color:#D3D3D3;">
+            
+     
+      <div>
+        <h1>Become a Blogger!</h1>
+        <h4>Create an account below</h4>
+        <img src="imgs/writing.png" alt="User Image" style="width:100px;height:100px;float:right;"><br>
+      </div>
+      
+    
+</div>
+
+<div class="panel panel-default container-fluid" style="background-color:#D3D3D3;">
+            
+     
+      <div>
+    <form action="register.php" method="post" class="form">
+    
+    <div class="input-prepend">
+        <input type="text" id="name" name="name"  class="input-xlarge" />
+        <label for="name">Username</label>
+    </div>
+
+    <div class="input-prepend">
+        <input type="text" id="email" name="email"  class="input-xlarge" />
+        <label for="email">Email</label>
+    </div>
+    <br/><br/>
+
+    
+    <div class="input-prepend">
+        <input type="password" id="password" name="password"  class="input-xlarge" />
+        <label for="password">Password</label>
+    </div>
+    <div class="input-prepend">
+        <input type="password" id="verify" name="verify"  class="input-xlarge" />
+        <label for="verify">Verify</label>
+    </div>
+    <br/><br/>
+    
+
+    
+    
+<div class="panel col-xs-3 panel-default" style="float:right;position: absolute;top: 31%;left: 60%;" >
+  <div class="panel-body">
+    <div class="input-prepend">
+        <label for="photo">Upload Portrait</label>
+        <input type="file" id="photo" name="photo"  class="input-xlarge" />
+    </div>
+    <br>
+    <div class="input-prepend">
+       <textarea row="5" id="bio" name="bio" class="input-xlarge"></textarea>
+        <label for="bio">Biography</label>
+    </div>
+  </div>
+</div>
+  
+   
+    <div class="control-group">
+        <div class="" style="text-align:center">
+            <input type="button" class="btn btn-default" style="background-color:#7FFFD4;" name="register" id="register" value="Start Blogging">
+        </div>
+    </div>
+</form>
+        
+</div>
+      
+
+</body>
+</html>
+
